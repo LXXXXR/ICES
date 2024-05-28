@@ -1,0 +1,10 @@
+exp_name: 2s3z
+run_name: 2s3z_ices
+
+seed: 0
+
+env_args:
+  map_name: "2s3z"
+  seed: 0
+
+t_max: 2050000

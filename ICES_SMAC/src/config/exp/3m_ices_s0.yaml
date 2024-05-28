@@ -1,0 +1,10 @@
+exp_name: 3m
+run_name: 3m_ices
+
+seed: 0
+
+env_args:
+  map_name: "3m"
+  seed: 0
+
+t_max: 2050000

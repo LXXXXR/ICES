@@ -1,0 +1,11 @@
+exp_name: corner
+run_name: corner_ices_qplex
+
+env_args:
+  seed: 0
+seed: 0
+
+
+int_ratio: 0.1
+int_finish: 0.05
+int_ent_coef: 0.002

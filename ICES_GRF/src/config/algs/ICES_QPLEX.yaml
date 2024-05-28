@@ -1,0 +1,54 @@
+# --- QMIX specific parameters ---
+
+# use epsilon greedy action selector
+action_selector: "epsilon_expl"
+epsilon_start: 1.0
+epsilon_finish: 0.0
+epsilon_anneal_time: 50000
+
+runner: "episode"
+
+buffer_size: 5000
+
+# update the target network every {} episodes
+target_update_interval: 200
+
+# use the Q_Learner to train
+agent_output_type: "q"
+learner: "ices_QPLEX"
+double_q: True
+mixer: "dmaq_qatten"
+mixing_embed_dim: 32
+hypernet_embed: 64
+adv_hypernet_layers: 1
+adv_hypernet_embed: 64
+
+num_kernel: 4
+is_minus_one: True
+is_adv_attention: True
+is_stop_gradient: True
+
+# Qatten coefficient
+n_head: 4
+attend_reg_coef: 0.001
+state_bias: True
+mask_dead: False
+weighted_head: False
+nonlinear: False
+
+num_circle: 2
+
+embedding_dim: 4
+hidden_dim: 64
+z_dim: 16
+pred_s_len: 1
+world_bl_lr: 0.0001
+world_lr: 0.0001
+world_clip_param: 0.1
+world_gamma: 0.01
+weight_decay: 0
+int_sign: False
+
+agent: "ices" 
+mac: "ices_mac"
+name: "ices_QPlex"

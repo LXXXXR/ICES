@@ -1,0 +1,13 @@
+exp_name: 5m_vs_6m
+run_name: 5m_vs_6m_ices
+
+seed: 0
+
+env_args:
+  map_name: "5m_vs_6m"
+  seed: 0
+
+t_max: 3050000
+
+int_finish: 0.05
+int_ent_coef: 0.5
