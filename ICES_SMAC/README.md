@@ -1,6 +1,6 @@
 # Individual Contributions as Intrinsic Exploration Scaffolds for Multi-agent Reinforcement Learning
 
-This is the implementation of our paper "[Individual Contributions as Intrinsic Exploration Scaffolds for Multi-agent Reinforcement Learning](https://arxiv.org/abs/xxxx)" in ICML 2024. This repo is based on the open-source [pymarl2](https://github.com/hijkzzz/pymarl2) framework, and please refer to that repo for more documentation.
+This is the implementation of our paper "[Individual Contributions as Intrinsic Exploration Scaffolds for Multi-agent Reinforcement Learning](https://arxiv.org/abs/2405.18110)" in ICML 2024. This repo is based on the open-source [pymarl2](https://github.com/hijkzzz/pymarl2) framework, and please refer to that repo for more documentation.
 
 ## Installation instructions
 
